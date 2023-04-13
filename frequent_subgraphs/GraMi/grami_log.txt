@@ -1,0 +1,726 @@
+Dataset: ../../.temp/bcd2bin.dot
+[DIRECTED]
+Frequent Subgraph Mining
+No constraints on labels
+Minimum frequency: 8
+Starting GraMi ...
+Freq Label: 0 with size: 11
+Freq Label: 1 with size: 9
+Freq Label: 5 with size: 34
+Freq Label: 6 with size: 8
+Freq Label: 7 with size: 8
+Freq Label: 10 with size: 8
+Freq Label: 11 with size: 11
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+1
+2
+3
+4
+5
+6
+7
+8
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+0
+1
+2
+3
+4
+5
+6
+7
+0
+1
+2
+3
+4
+5
+6
+7
+0
+1
+2
+3
+4
+5
+6
+7
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+(0 1: 1 1 4 1)
+(0 1: 1 1 0 1)
+(0 1: 1 0 6 1)
+(0 1: 0 1 0 1)
+(0 1: 0 0 6 1)
+(0 1: 0 0 2 1)
+(0 1: 0 1 5 1)
+(0 1: 4 1 5 1)
+(0 1: 4 1 0 1)
+(0 1: 5 1 0 1)
+(0 1: 5 0 2 1)
+(0 1: 5 1 4 1)
+(0 1: 6 1 0 1)
+(0 1: 6 1 4 1)
+(0 1: 6 1 5 1)
+(0 1: 6 0 2 1)
+(0 1: 2 0 3 1)
+(0 1: 2 0 2 1)
+(0 1: 2 1 4 1)
+(0 1: 2 1 5 1)
+-------------------------Looking into frequency of: v 0 5
+v 1 11
+e 0 1 0
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 5
+v 1 10
+e 0 1 0
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+e 0 1 1
+
+called pruned lists
+called Automorphism pruned lists
+1
+0
+Freq: 8
+-------------------------Looking into frequency of: v 0 5
+v 1 7
+e 0 1 1
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 0
+v 1 10
+e 0 1 0
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 0
+v 1 5
+e 0 1 1
+
+called pruned lists
+Freq: 8
+-------------------------Looking into frequency of: v 0 0
+v 1 6
+e 0 1 1
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 11
+v 1 11
+e 0 1 0
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 11
+v 1 1
+e 0 1 0
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 11
+v 1 6
+e 0 1 1
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 11
+v 1 7
+e 0 1 1
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 6
+v 1 5
+e 0 1 1
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 6
+v 1 7
+e 0 1 1
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 7
+v 1 11
+e 0 1 0
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 7
+v 1 5
+e 0 1 1
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 7
+v 1 6
+e 0 1 1
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 10
+v 1 11
+e 0 1 0
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 10
+v 1 5
+e 0 1 1
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 10
+v 1 6
+e 0 1 1
+
+called pruned lists
+Freq: 0
+-------------------------Looking into frequency of: v 0 10
+v 1 7
+e 0 1 1
+
+called pruned lists
+Freq: 0
+Initial with Gedge (0 1: 0 1 0 1) code: v 0 5
+v 1 5
+e 0 1 1
+
+Initial with Gedge (0 1: 1 1 0 1) code: v 0 0
+v 1 5
+e 0 1 1
+
+calculating is Canonical?...
+....is Canonical
+Extending code: v 0 5
+v 1 5
+e 0 1 1
+
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+e 0 1 1
+e 1 0 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+e 0 1 1
+e 1 2 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 0
+e 0 1 1
+e 2 1 0
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+e 0 1 1
+e 2 1 1
+
+called pruned lists
+called Automorphism pruned lists
+2
+1
+0
+1
+Freq: 8
+Extending code: v 0 5
+v 1 5
+v 2 5
+e 0 1 1
+e 2 1 1
+
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 5
+e 0 1 1
+e 2 1 1
+e 2 3 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+e 0 1 1
+e 2 1 1
+e 3 2 0
+
+called pruned lists
+called Automorphism pruned lists
+3
+2
+1
+0
+1
+into TMP Part 1
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+e 0 1 1
+e 2 1 1
+e 3 2 1
+
+called pruned lists
+called Automorphism pruned lists
+3
+2
+1
+0
+1
+Freq: 8
+Extending code: v 0 5
+v 1 5
+v 2 5
+v 3 0
+e 0 1 1
+e 2 1 1
+e 3 2 1
+
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+e 0 1 1
+e 2 1 1
+e 3 2 1
+e 3 0 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+e 0 1 1
+e 2 1 1
+e 3 2 1
+e 3 1 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+v 4 5
+e 0 1 1
+e 2 1 1
+e 3 2 1
+e 3 4 0
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+v 4 5
+e 0 1 1
+e 2 1 1
+e 3 2 1
+e 3 4 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+v 4 0
+e 0 1 1
+e 2 1 1
+e 3 2 1
+e 4 2 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+v 4 5
+e 0 1 1
+e 2 1 1
+e 3 2 1
+e 4 1 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+v 4 0
+e 0 1 1
+e 2 1 1
+e 3 2 1
+e 4 1 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+v 4 0
+e 0 1 1
+e 2 1 1
+e 3 2 1
+e 4 0 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 5
+e 0 1 1
+e 2 1 1
+e 3 1 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+v 3 0
+e 0 1 1
+e 2 1 1
+e 3 1 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 0
+e 0 1 1
+e 2 1 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 5
+e 0 1 1
+e 0 2 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 0
+e 0 1 1
+e 2 0 0
+
+called pruned lists
+called Automorphism pruned lists
+2
+1
+0
+into TMP Part 1
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 0
+e 0 1 1
+e 2 0 1
+
+called pruned lists
+called Automorphism pruned lists
+2
+1
+0
+Freq: 8
+Extending code: v 0 5
+v 1 5
+v 2 0
+e 0 1 1
+e 2 0 1
+
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 0
+v 3 5
+e 0 1 1
+e 2 0 1
+e 2 3 0
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 0
+v 3 5
+e 0 1 1
+e 2 0 1
+e 2 3 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 5
+v 1 5
+v 2 0
+v 3 0
+e 0 1 1
+e 2 0 1
+e 3 0 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is Canonical
+Extending code: v 0 0
+v 1 5
+e 0 1 1
+
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 0
+v 1 5
+v 2 0
+e 0 1 1
+e 2 1 1
+
+called pruned lists
+Freq: 0
+calculating is Canonical?...
+....is NOT Canonical
+calculating is Canonical?...
+....is Canonical
+-------------------------Looking into frequency of: v 0 0
+v 1 5
+v 2 5
+e 0 1 1
+e 0 2 1
+
+called pruned lists
+Freq: 0
+GraMi Finished.

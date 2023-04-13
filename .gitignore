@@ -1,0 +1,15 @@
+**/*_deprecated*
+in_prog/
+frequent_subgraphs/__pycache__/
+frequent_subgraphs/.ast_tools/
+frequent_subgraphs/.temp/
+frequent_subgraphs/arch_graph_pdfs/
+frequent_subgraphs/comp_graphs/
+frequent_subgraphs/pdf/
+frequent_subgraphs/outputs/
+frequent_subgraphs/arch_graph*
+frequent_subgraphs/subgraph_mine/convert_eblif.py
+frequent_subgraphs/subgraph_mine/convert_eblif2.py
+frequent_subgraphs/subgraph_merging_freq/gen_verilog_arch_deprecated_for_now.py
+frequent_subgraphs/subgraph_merging_freq/gen_verilog_arch_deprecated_for_now.py
+
