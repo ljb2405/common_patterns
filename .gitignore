@@ -1,5 +1,7 @@
 **/*_deprecated*
 in_prog/
+preprocess/*.tcl
+preprocess/__pycache__/
 frequent_subgraphs/__pycache__/
 frequent_subgraphs/.ast_tools/
 frequent_subgraphs/.temp/
@@ -13,3 +15,5 @@ frequent_subgraphs/subgraph_mine/convert_eblif2.py
 frequent_subgraphs/subgraph_merging_freq/gen_verilog_arch_deprecated_for_now.py
 frequent_subgraphs/subgraph_merging_freq/gen_verilog_arch_deprecated_for_now.py
 
+frequent_subgraphs/subgraph_merging_freq/__pycache__/config.cpython-39.pyc
+frequent_subgraphs/subgraph_mine/__pycache__/config.cpython-39.pyc

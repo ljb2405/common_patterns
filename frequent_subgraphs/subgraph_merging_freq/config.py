@@ -10,7 +10,7 @@ supported_ops =  {"mul", "mult_middle", "const", "not", "and", "or", "xor", "shl
                     "nex", "pow", "lt", "le", "ne", "ge", "gt", "div", "mod", "divfloor", "modfloor", \
                     "mux", "pmux", "tribuf", "sr", "adff", "sdff", "dffsr", "sdffe", "dff", "reduce_bool", "logic_not", "re", "_SDFFE_PP0P_", '_SDFF_PP0_', "_SDFFE_PP0N_", \
                     "_DFFE_PP_", "_DFF_P_", "_SDFFCE_PN0P_", "_SDFFCE_PN1P_", "_SDFFCE_PP0P_", "_DFF_P", "_DLATCH_N_", \
-                    "_SDFF_PN1_", "_SDFF_PP0_", "_SDFF_PP1_", "al", "_DFFE_PP_", "_DFFE_PN_", "_SDFF_PN0_", "_SDFFCE_PP0N_"}
+                    "_SDFF_PN1_", "_SDFF_PP0_", "_SDFF_PP1_", "al", "_DFFE_PP_", "_DFFE_PN_", "_SDFF_PN0_", "_SDFFCE_PP0N_", "_DFFE_PN0N_", "_DFFE_PN0P_", "_DFF_PN0_", "mem_v2"}
 
 bit_input_ops = {"bitand", "bitor", "bitxor", "bitnot", "bitmux"}
 
@@ -27,7 +27,7 @@ primitive_ops = {"not", "and", "or", "xor", "shl", "lshr", "ashr", "add", "sub",
                 "logic_not", "xnor", "shr", "sshl", "sshr", "logic_and", "logic_or", "eqx", 
                 "nex", "pow", "lt", "le", "ne", "ge", "gt", "div", "mod", "divfloor", "modfloor",
                 "mux", "pmux", "tribuf", "sr", "adff", "sdff", "dffsr", "sdffe", "dff", "reduce_bool", "logic_not", "re", "_SDFFE_PP0P_", '_SDFF_PP0_', "_SDFFE_PP0N_", 
-                "_DFFE_PP_", "_DFF_P_", "_SDFFCE_PN0P_", "_SDFFCE_PN1P_", "_SDFFCE_PP0P_", "al", "_DFFE_PP_", "_DFFE_PN_", "_SDFF_PN0_", "_SDFFCE_PP0N_"}
+                "_DFFE_PP_", "_DFF_P_", "_SDFFCE_PN0P_", "_SDFFCE_PN1P_", "_SDFFCE_PP0P_", "al", "_DFFE_PP_", "_DFFE_PN_", "_SDFF_PN0_", "_SDFFCE_PP0N_", "_DFFE_PN0N_", "_DFFE_PN0P_", "_DFF_PN0_", "mem_v2"}
 
 alu_supported_ops = {"and", "mult_middle", "or", "xor", "shl", "lshr", "ashr", "add", "sub",
                     "sle", "sge", "ule", "uge", "eq", "slt", "sgt", "ult", "ugt", 
@@ -52,7 +52,7 @@ weights = {"const":1, "bitconst":1, "and":1, "or":1, "xor":1, "shl":1, "lshr":1,
                     "mux":1, "pmux":1, "tribuf":1, "sr":1, "adff":1, "sdff":1, "dffsr":1, "sdffe":1, "dff":1, "reduce_bool":1, "logic_not":1, "nand":1, "nor":1,
                     "or": 1, "xor": 1, "true" : 1, "not": 1, "mem_v2" : 0.0001, "dlatch" : 0.0001, "_SDFFE_PP0P_" : 0.0001, "_SDFF_PP0_" : 0.0001, "re" : 0.0001, "_SDFFE_PP0N_" : 0.0001, 
                     "_DFFE_PP_": 0.0001, "_DFF_P_" : 0.0001, "_SDFFCE_PN0P_" : 0.0001, "_SDFFCE_PN1P_" : 0.0001, "_SDFFCE_PP0P_" : 0.0001, "_DFF_P":0.0001, "_DLATCH_N_":0.0001, \
-                    "_SDFF_PN1_":0.0001, "_SDFF_PP0_":0.0001, "_SDFF_PP1_":0.0001, "al":1, "_DFFE_PP_":.0001, "_DFFE_PN_":.0001, "_SDFF_PN0_":0.0001, "_SDFFCE_PP0N_":0.0001}
+                    "_SDFF_PN1_":0.0001, "_SDFF_PP0_":0.0001, "_SDFF_PP1_":0.0001, "al":1, "_DFFE_PP_":.0001, "_DFFE_PN_":.0001, "_SDFF_PN0_":0.0001, "_SDFFCE_PP0N_":0.0001,  "_DFFE_PN0N_": 0.0001, "_DFFE_PN0P_":0.0001, "_DFF_PN0_":0.0001, "mem_v2":0.0001}
 
 
 # op_area = {"const":12, "bitconst":1000, "and":1000, "or":1000, "xor":1000, "shl":1000, "lshr":1000, "ashr":1000, "add":1000, "sub":1000,
@@ -182,14 +182,14 @@ op_bitwidth = {"const": [], "bitconst": [], "and": [1, 1], "or": [1, 1], "xor": 
                     "mux":[8,4], "pmux":[8,4], "tribuf":[1,1], "sr":[1,1], "adff":[1,1], "sdff":[1,1], "dffsr":[1,1], "sdffe":[1,1], "dff":[1,1], "reduce_bool": [4,1], "logic_not": [4,4],
                     "nand":[1,1], "nor":[1,1], "xor":[1,1], "or" :[1,1], "true":[1,1], "not":[1,1], "_SDFF_PP0_":[1,1], "_SDFFE_PP0P_":[1,1], "re":[1,1], "_SDFFE_PP0N_" : [1,1], 
                     "_DFFE_PP_":[1,1], "_DFF_P_":[1,1], "_SDFFCE_PN0P_":[1,1], "_SDFFCE_PN1P_":[1,1], "_SDFFCE_PP0P_":[1,1], "_DFF_P":[1,1], "_DLATCH_N_":[1,1], \
-                    "_SDFF_PN1_":[1,1], "_SDFF_PP0_":[1,1], "_SDFF_PP1_":[1,1], "al" : [1,1], "_DFFE_PP_":[1,1], "_DFFE_PN_":[1,1], "_SDFF_PN0_":[1,1], "_SDFFCE_PP0N_":[1,1]}
+                    "_SDFF_PN1_":[1,1], "_SDFF_PP0_":[1,1], "_SDFF_PP1_":[1,1], "al" : [1,1], "_DFFE_PP_":[1,1], "_DFFE_PN_":[1,1], "_SDFF_PN0_":[1,1], "_SDFFCE_PP0N_":[1,1], "_DFFE_PN0N_":[1,1], "_DFFE_PN0P_":[1,1], "_DFF_PN0_":[1,1], "mem_v2":[1,1]}
 
 dffs = {"_DFFE_PP_", "_DFF_P_", "_SDFFCE_PN0P_", "_SDFFCE_PN1P_", "_SDFFCE_PP0P_", "_SDFF_PP0_", "_SDFFE_PP0P_", "re", "_SDFFE_PP0N_", "_DFF_P_", "_DLATCH_N_", "_SDFF_PN1_", "_SDFF_PP0_", "_SDPP_PP1_", "mem_v2", "sdffe", "sdff", "dff", "_DFF_P", "_DLATCH_N_", \
-                    "_SDFF_PN1_", "_SDFF_PP0_", "_SDFF_PP1_", "_DFFE_PP_", "_DFFE_PN_", "_SDFF_PN0_", "_SDFFCE_PP0N_", "al"}
+                    "_SDFF_PN1_", "_SDFF_PP0_", "_SDFF_PP1_", "_DFFE_PP_", "_DFFE_PN_", "_SDFF_PN0_", "_SDFFCE_PP0N_", "al", "_DFFE_PN0N_", "_DFFE_PN0P_", "_DFF_PN0_", "mem_v2"}
 latches = {"re", "al"}
 dff_without_latch = {"_DFFE_PP_", "_DFF_P_", "_SDFFCE_PN0P_", "_SDFFCE_PN1P_", "_SDFFCE_PP0P_", "_SDFF_PP0_", "_SDFFE_PP0P_", "_SDFFE_PP0N_", "_DFF_P_", "_DLATCH_N_", "_SDFF_PN1_", "_SDFF_PP0_", "_SDPP_PP1_", "mem_v2", "sdffe", "sdff", "dff", "_DFF_P", "_DLATCH_N_", \
-                    "_SDFF_PN1_", "_SDFF_PP0_", "_SDFF_PP1_", "_DFFE_PP_", "_DFFE_PN_", "_SDFF_PN0_", "_SDFFCE_PP0N_"}
-dff_enable = {"_SDFFCE_PN0P_", "_SDFFCE_PN1P_", "_SDFFCE_PP0P_", "_SDFFE_PP0P_", "_SDFFE_PP0N_", "_SDFFCE_PP0N_", "_DFFE_PP_"}
+                    "_SDFF_PN1_", "_SDFF_PP0_", "_SDFF_PP1_", "_DFFE_PP_", "_DFFE_PN_", "_SDFF_PN0_", "_SDFFCE_PP0N_" , "_DFFE_PN0N_", "_DFFE_PN0P_", "_DFF_PN0_", "mem_v2"}
+dff_enable = {"_SDFFCE_PN0P_", "_SDFFCE_PN1P_", "_SDFFCE_PP0P_", "_SDFFE_PP0P_", "_SDFFE_PP0N_", "_SDFFCE_PP0N_", "_DFFE_PP_", "_DFFE_PN0N_", "_DFFE_PN0P_"}
 muxes = {"mux_out_0", "mux_in_0", "mux_in_1", "mux_out_1"}
 op_types = []
 op_types_flipped = []

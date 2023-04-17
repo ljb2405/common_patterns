@@ -53,7 +53,7 @@ def main():
             # Takes in grami_in.txt produces orig_graph.pdf
             print("Graphing original graph")
             #graph_output(dot_files[file_ind], file_stripped)
-            support = int(num_nodes[file_ind] * 0.2)
+            support = int(num_nodes[file_ind] * 0.13)
             min_support = int(num_nodes[file_ind] * 0.01)
             #TODO: Edit the function to direct to the correct GraMi directory
             # Takes in grami_in.txt and subgraph support, produces Output.txt

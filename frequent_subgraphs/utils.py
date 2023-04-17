@@ -71,6 +71,6 @@ def grami_subgraph_mining(input_file, subgraph_inds, support, min_support):
 
         print("Support =", support, " num_subgraphs =", num_subgraphs)
 
-        support -= 1
+        support -= 2
 
     print("Finished GraMi subgraph mining")
